@@ -7,6 +7,10 @@ window = tk.Tk()
 window.geometry("450x450")
 window.title("Примеры построения графиков")
 
+# Добавление метки заголовка
+lblTitle = tk.Label(text = 'Примеры построения графиков', font = ('Helvetica', 16, 'bold'), fg = '#0000cc')
+lblTitle.place(x=55, y=25)
+
 # Функция закрытия программы
 def do_close():
     window.destroy()
